@@ -6,7 +6,7 @@ public class Variable03 {
 
 	public static void main(String[] args) {
 		
-		//삼각형의 밑변과 높이를 입력받아서 넓이를 출력
+		// 삼각형의 밑변과 높이를 입력받아서 넓이를 출력
 		// 삼각형의 넓이 : 밑변 x 높이 x 0.5
 		
 		int baseLine, height;
