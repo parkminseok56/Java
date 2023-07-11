@@ -19,7 +19,7 @@ public class Variable06 {
 //		Scanner sc = new Scanner(System.in);
 		// 변수의 다양한 선언(생성) 방법
 		
-		// 1. 변수 선언 후 값을 할당(대임)하는 방법
+		// 1. 변수 선언 후 값을 할당(대입)하는 방법
 		int n1;
 		n1= 10;
 		
