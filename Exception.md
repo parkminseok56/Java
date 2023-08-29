@@ -12,15 +12,17 @@
      
   - Checked 예외 (Checked Exception):
    
-  컴파일러가 체크하며, 반드시 처리되어야 하는 예외입니다. 이 예외를 처리하지 않으면 컴파일 오류가 발생합니다.
-
-  대표적으로  IOException이나 SQLException이 있습니다.
+      컴파일러가 체크하며, 반드시 처리되어야 하는 예외입니다.
+    
+       이 예외를 처리하지 않으면 컴파일 오류가 발생합니다.
+    
+      대표적으로  IOException이나 SQLException이 있습니다.
 
    - Unchecked 예외 (Unchecked Exception):
  
-   컴파일러가 체크하지 않으며, 개발자의 경험과 주의로 예방하거나 처리해야 합니다.
-
-   대표적으로 NullPointerException,  ArrayIndexOutOfBoundsException, ArithmeticException 등이 있습니다.
+       컴파일러가 체크하지 않으며, 개발자의 경험과 주의로 예방하거나 처리해야 합니다.
+    
+       대표적으로 NullPointerException,  ArrayIndexOutOfBoundsException, ArithmeticException 등이 있습니다.
 
  -------------------------------------------------------------------------------------------------------------------------------
 
