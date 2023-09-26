@@ -51,17 +51,21 @@
 ## 주요 인터페이스의 간략한 특징
 자바에서 컬렉션 프레임워크를 구성하고 있는 주요 인터페이스의 간략한 특징은 다음과 같습니다.
 
-인터페이스	설명	구현 클래스
-List<E>	순서가 있는 데이터의 집합으로, 데이터의 중복을 허용함.	Vector, ArrayList, LinkedList, Stack, Queue
-Set<E>	순서가 없는 데이터의 집합으로, 데이터의 중복을 허용하지 않음.	HashSet, TreeSet
-Map<K, V>	
-키와 값의 한 쌍으로 이루어지는 데이터의 집합으로, 순서가 없음.
+##### 인터페이스	설명	구현 클래스
+- List<E> :	순서가 있는 데이터의 집합으로, 데이터의 중복을 허용함.	Vector, ArrayList, LinkedList, Stack, Queue
+
+- Set<E>	: 순서가 없는 데이터의 집합으로, 데이터의 중복을 허용하지 않음.	HashSet, TreeSet
+  
+- Map<K, V>	: 키와 값의 한 쌍으로 이루어지는 데이터의 집합으로, 순서가 없음.
 
 이때 키는 중복을 허용하지 않지만, 값은 중복될 수 있음.
 
-HashMap, TreeMap, Hashtable, Properties
-컬렉션 클래스(collection class)
+###### 컬렉션 클래스(collection class)
+
 컬렉션 프레임워크에 속하는 인터페이스를 구현한 클래스를 컬렉션 클래스(collection class)라고 합니다.
+
+HashMap, TreeMap, Hashtable, Properties
+
 
  
 
